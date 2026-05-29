@@ -6,6 +6,60 @@
 }
 nav{
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
+    align-items:center;
+    flex:1;
+}
+#heading-styles{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:30px;
+}
+.image-container{
+    display:flex;
+    gap:15px;
 }
 
+img{
+    flex:1;
+    transition:transform 0.3s ease; 
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+.Recommendation{
+    text-align:center;
+}
+
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    border-top:1 px solid #ccc;
+}
+
+.left-footer{
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+}
+
+.right-footer{
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+}
+body{
+    background-color:lightgray;
+}
+button{
+    background-color:#0097a7;
+    color:white;
+    padding: 10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    box-shadow:0 2px 4px rgba(0,0,0,0.2);
+}
+img:hover{
+    transform: scale(1.05);
+}
