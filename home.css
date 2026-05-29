@@ -1,0 +1,27 @@
+.hero{
+    width: 100vw;
+    height: 20vh;
+    display: inline-block;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.pic-frame{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
