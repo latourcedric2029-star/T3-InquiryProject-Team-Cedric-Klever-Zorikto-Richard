@@ -49,17 +49,6 @@ footer{
     border-top:1px solid lightgray;
 }
 
-.left-footer{
-    display:flex;
-    gap:20px;
-    flex-direction:column;
-}
-
-.right-footer{
-    display:flex;
-    gap:20px;
-    flex-direction:column;
-}
 body{
     background-color: lightcyan;
     padding:20px;
@@ -105,4 +94,14 @@ a{
     transition: color 0.3s;
     color:navy;
     text-decoration: none;
+}
+.left-footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+.right-footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
 }
