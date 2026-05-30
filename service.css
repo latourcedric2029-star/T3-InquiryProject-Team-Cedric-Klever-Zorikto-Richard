@@ -1,7 +1,11 @@
+*{
+    box-sizing:border-box;
+}
+
 .navbar{
     display:flex;
+    background-color:cornflowerblue;
     flex-direction:row;
-    background-color: aqua;
     justify-content:space-between;
 }
 nav{
@@ -13,17 +17,22 @@ nav{
 #heading-styles{
     text-align:center;
     font-size:32px;
-    margin-bottom:30px;
+    letter-spacing:1px;
+    font-weight:600;
 }
 .image-container{
     display:flex;
     gap:15px;
+    padding:20px 0;
 }
 
 img{
     flex:1;
     transition:transform 0.3s ease; 
-    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    position:relative;
+    overflow:hidden;
+    border:5px solid;
+    border-color:coral;
 }
 .Recommendation{
     text-align:center;
@@ -34,8 +43,10 @@ footer{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px;
-    border-top:1 px solid #ccc;
+    padding:30px;
+    background-color:whitesmoke;
+    margin-top:40px;
+    border-top:1px solid lightgray;
 }
 
 .left-footer{
@@ -50,7 +61,10 @@ footer{
     flex-direction:column;
 }
 body{
-    background-color:lightgray;
+    background-color: lightcyan;
+    padding:20px;
+    max-width: 1200px;
+    margin:0 auto;
 }
 button{
     background-color:#0097a7;
@@ -58,8 +72,37 @@ button{
     padding: 10px 20px;
     border-radius:5px;
     cursor:pointer;
-    box-shadow:0 2px 4px rgba(0,0,0,0.2);
+    transition:all 0.3s ease; 
 }
 img:hover{
     transform: scale(1.05);
+    filter:saturate(1.2);
+    transform:rotate(1deg);
+    transform:perspective(1000px) rotateY(180deg);
+}
+.standout{
+    border-bottom:5px solid black;
+    font-weight:bold;
+}
+a:hover{
+    opacity:0.8;
+    color:#0097a7;
+    text-decoration: underline;
+}
+section{
+    padding:40px;
+    margin-bottom:60px;
+}
+.page-container{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+button:hover{
+    filter:brightness(0.9);
+}
+a{
+    transition: color 0.3s;
+    color:navy;
+    text-decoration: none;
 }
