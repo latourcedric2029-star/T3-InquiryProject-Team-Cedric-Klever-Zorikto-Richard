@@ -67,7 +67,6 @@ img:hover{
     transform: scale(1.05);
     filter:saturate(1.2);
     transform:rotate(1deg);
-    transform:perspective(1000px) rotateY(180deg);
 }
 .standout{
     border-bottom:5px solid black;
